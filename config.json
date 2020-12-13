@@ -1,0 +1,61 @@
+{
+    "imgType": [
+        {
+            "name": "comfirmBtn",
+            "imgPath": "./img/comfirmBtn.jpg"
+        },
+        {
+            "name": "stageClear",
+            "imgPath": "./img/stageClear.jpg"
+        },
+        {
+            "name": "startBtn",
+            "imgPath": "./img/startBtn.jpg"
+        },
+        {
+            "name": "tryAgainBtn",
+            "imgPath": "./img/tryAgainBtn.jpg"
+        },
+        {
+            "name": "buyBtn",
+            "imgPath": "./img/buyBtn.jpg"
+        },
+        {
+            "name": "nextfloorBtn",
+            "imgPath": "./img/nextfloorBtn.jpg"
+        },
+        {
+            "name": "nox",
+            "imgPath": "./img/nox.jpg"
+        }
+    ],
+    "steps": [
+        {
+            "type": "ImgClick",
+            "cmd": "startBtn",
+            "clickDelay": 1
+        },
+        {
+            "type": "ImgClick",
+            "cmd": "buyBtn",
+            "clickDelay": 1,
+            "must": false
+        },
+        {
+            "type": "ImgClick",
+            "cmd": "startBtn",
+            "clickDelay": 1.5,
+            "must": false
+        },
+        {
+            "type": "ImgClick",
+            "cmd": "nextfloorBtn",
+            "clickDelay": 1
+        },
+        {
+            "type": "randomWait",
+            "cmd": ""
+        }
+    ],
+    "mixSteps": {}
+}
